@@ -1,5 +1,5 @@
 ---
-# Text-to-Image Matching with CLIP
+# Image-Text Matching
 
 ## Project Description
 This project involves the implementation of a custom CLIP (Contrastive Language-Image Pretraining) model that detects the best-matching images based on text inputs. The goal of the project is to gain experience in text-based visual matching projects and to integrate it with VQGAN or BigGAN for text-to-image generation in the future.
