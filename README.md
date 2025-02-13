@@ -1,11 +1,13 @@
 ---
-# Image-Text Matching
+# CLIP-Foundation  
 
-## Project Description
-This project involves the implementation of a custom CLIP (Contrastive Language-Image Pretraining) model that detects the best-matching images based on text inputs. The goal of the project is to gain experience in text-based visual matching projects and to integrate it with VQGAN or BigGAN for text-to-image generation in the future.
+## Project Description  
+This project is focused on designing a **CLIP (Contrastive Language-Image Pretraining) model from scratch** to gain a deep understanding of its architecture and functionality. The primary goal is to **learn how to build and implement a CLIP model** while acquiring experience in embedding text and images into a shared representation space.  
 
-### Overall Goal of the Project
-This project includes a custom CLIP model that merges text and visual data into a shared embedding space. Users can provide text inputs to allow the model to find the best-matching images from the dataset. In the next stages, I plan to expand this project to serve as a foundation for text-to-image generation projects.
+To solidify this learning process, the model has been trained on an **image-text matching task**, demonstrating its ability to align textual descriptions with corresponding visual representations.  
+
+## Overall Goal of the Project  
+The main objective of this project is to **develop a strong foundation in CLIP architecture and text-image embedding techniques**. The knowledge and experience gained from this implementation will be valuable for future **text-to-image (T2I) and text-to-video (T2V) generative AI projects**, helping to understand how text embedding should be handled effectively in such models.  
 
 ### Dataset Used
 The **Flickr30k** dataset, licensed under **CC0: Public Domain**, was used in this project. This dataset is suitable and widely used for tasks such as text-based image matching, image captioning, and similar applications. The dataset can be freely used in both commercial and non-commercial projects without any restrictions.
@@ -132,17 +134,5 @@ find_matches("plane")
 find_matches("Gloomy weather")
 find_matches("someone dunks on the basket")
 ```
-
-## Project Modules and Structure
-### clipModel.py
-This file is designed to make the project modular and facilitate future GAN integrations. The main components it includes are:
-- **ImageEncoder**: Extracts image features using the Vision Transformer (ViT) model.
-- **TextEncoder**: Extracts text features using the DistilBERT model.
-- **ProjectionHead**: Projects the embeddings into a shared embedding space for text and images.
-- **CLIPModel**: The main model class that uses both image and text encoders to return text and image projections.
-
-## Future Plans
-In the next stages of this project, I plan to integrate the CLIP model with VQGAN or BigGAN to add text-to-image generation capability. This will lay the groundwork for more advanced research and development in text-to-image synthesis.
-
 ## License
 This project is licensed under the [MIT License](LICENSE). For more details, please review the license file.
