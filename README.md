@@ -1,12 +1,14 @@
 <p align="center">
-  <img src="https://github.com/mesut-by/CLIP-Foundation/blob/main/test/plane.png?raw=true" width="60%" />
+  <img src="https://github.com/mesut-by/CLIP-Foundation/blob/main/test/plane.png?raw=true" width="90%" />
 </p>
 <p align="center">
-  <img src="https://github.com/mesut-by/CLIP-Foundation/blob/main/test/gloomy_weather.png?raw=true" width="60%" />
+  <img src="https://github.com/mesut-by/CLIP-Foundation/blob/main/test/gloomy_weather.png?raw=true" width="90%" />
 </p>
 <p align="center">
-  <img src="https://github.com/mesut-by/CLIP-Foundation/blob/main/test/dunks_basket.png?raw=true" width="60%" />
+  <img src="https://github.com/mesut-by/CLIP-Foundation/blob/main/test/dunks_basket.png?raw=true" width="90%" />
 </p>
+
+
 
 ---
 # CLIP-Foundation  
